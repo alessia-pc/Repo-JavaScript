@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Rubik&family=Rubik+Mono+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #292929;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    background: rgb(243, 243, 243);
+    width: 100%;
+    height: 90px;
+    float: right;
+    position: fixed;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 65px;
+    padding: 10px 10px;
+    padding-top: 35px;
+    float: left;
+    position: relative;
+    }
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+
+.enlace {
+    position: relative;
+    padding: 20px 50px;
+}
+
+/*contenido*/
+
+button {
+    background: rgb(219, 212, 212);
+    font-family:  'Rubik', sans-serif;
+    color: black;
+    
+}
+
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+.dolcegusto,
+.dgproducto {
+    float: left;
+    margin-left: 38px;
+}
+
+.nespresso,
+.nsproducto {
+    float: left;
+    margin-left: 10px;
+}
+
+.zutec,
+.ztproducto {
+    float: left;
+    margin-left: 40px;
+}
+
+.tigout,
+.tgproducto {
+    float: left;
+    margin-left: 40px;
+}
+
+.formulario {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+input {
+    color: black;
+}
+
+#carritoCompras {
+    background-color: rgb(84, 180, 184);
+    height: 350px;
+    text-align: center;
+}
+input {
+    width: 290px;
+    margin-bottom: 30px;
+}
+
+.formulario h2 {
+    margin-bottom: 30px;
+    
+}
+
+#botonExclusivos {
+    margin-top: 30px;
+}
+
+#box {
+    width: 200px;
+}
+
+#productos-destacados {
+    background: rgb(90, 90, 90);
+    height: 520px;
+    text-align: center;
+    position: relative;
+}
+
+.destacado-juicy {
+    float: left;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 350px ;
+}
+.destacado-rich {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
